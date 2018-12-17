@@ -3,10 +3,10 @@ package Package1;
 public class numberOfSpaces 
 {
 static int i,word=0,temp;
-private static numberOfSpaces SpaceCount;
+private static numberOfSpaces number;
 	   public static void main (String args[])
 {
-	temp=SpaceCount.spacecount("Count the number of spaces in this sentence"); 
+	temp=number.spacecount("Count the number of spaces in this sentence"); 
 	System.out.println("The number of white spaces in the String are :  "+word);
 	               }   
 	   static int spacecount(String s)
